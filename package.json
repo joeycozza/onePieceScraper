@@ -1,0 +1,10 @@
+{
+  "name": "scraperManga",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "request": "^2.40.0",
+    "zombie": "^2.0.0-alpha31"
+  }
+}
