@@ -3,7 +3,7 @@ var cheerio = require('cheerio');
 var http = require('http');
 var fs = require('fs');
 
-for (var i = 1; i <= 100; i++) {
+for (var i = 1; i <= 50; i++) {
 	(function closure(k) {
 		fs.mkdir('OnePieceBooks/chapter' + k, function () {
 			request('http://mangasee.me/manga/?series=OnePiece&chapter=' + k + '&index=1', function (err, res, body) {
